@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Firebase Chat App</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Home Fragment -->
+    <string name="home_title">Welcome Home</string>
+    <string name="home_description">This is the home section of your social app. Explore the navigation below to discover more features.</string>
+    
+    <!-- Profile Fragment -->
+    <string name="profile_picture">Profile Picture</string>
+    <string name="user_name">John Doe</string>
+    <string name="user_email">john.doe@example.com</string>
+    <string name="user_bio">Android developer passionate about creating beautiful and functional apps.</string>
+    
+    <!-- Gallery Fragment -->
+    <string name="gallery_title">My Gallery</string>
+    
+    <!-- Settings Fragment -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="settings_about">About</string>
+    
+    <!-- Tab Titles -->
+    <string name="tab_info">Info</string>
+    <string name="tab_gallery">Gallery</string>
+</resources>

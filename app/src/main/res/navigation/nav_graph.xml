@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/authenticationFragment">
+
+    <fragment
+        android:id="@+id/authenticationFragment"
+        android:name="com.example.advanceduinavapp.fragments.AuthenticationFragment"
+        android:label="Authentication"
+        tools:layout="@layout/fragment_authentication">
+        <action
+            android:id="@+id/action_authenticationFragment_to_chatFragment"
+            app:destination="@id/chatFragment"
+            app:popUpTo="@id/authenticationFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.advanceduinavapp.fragments.ChatFragment"
+        android:label="Chat"
+        tools:layout="@layout/fragment_chat">
+        <action
+            android:id="@+id/action_chatFragment_to_authenticationFragment"
+            app:destination="@id/authenticationFragment"
+            app:popUpTo="@id/chatFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>
